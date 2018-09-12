@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+</head>
+<body>
+  <h1>It works</h1>
+
+  <ul id="product-list">
+    <!-- <li><span>Macbook</span> - <span>$2400</span></li> -->
+  </ul>
+
+  <form id="new-product" method="POST" action="/products">
+    <p>
+      <input type="text" name="name" placeholder="Enter a name...">
+    </p>
+    <p>
+      <input type="text" name="price" placeholder="Enter a price...">
+    </p>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
